@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'django_drf_test.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME':'book',
+        'USER':'book',
+        'HOST':'121.199.69.95',
+        'PORT':'3306',
+        'PASSWORD':'jkl5201314',
     }
 }
 
