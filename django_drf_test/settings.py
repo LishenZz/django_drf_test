@@ -34,6 +34,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+AUTH_USER_MODEL = 'drf.UserProfile'
+
 # Application definition
 
 INSTALLED_APPS = [
