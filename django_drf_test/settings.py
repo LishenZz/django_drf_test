@@ -34,12 +34,12 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-AUTH_USER_MODEL = 'drf.UserProfile'
+AUTH_USER_MODEL = 'users.UserProfile'
 
 # Application definition
 
 INSTALLED_APPS = [
-    'apps.drf',
+    'apps.users',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -134,3 +134,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_URL = "/media/"
